@@ -2,22 +2,23 @@
   "name": "mimi",
   "type": "module",
   "version": "0.0.0",
-  "description": "tool to map midi to act like a more powerful launchpad for FL Studio's \"performace mode\"",
+  "description": "Experimental MIDI payload framework for creating custom mappings to control applications and devices.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cli": "node src/cli.js",
     "start": "npm run cli --"
   },
-  "keywords": [
-    "m-vave",
-    "smk25",
-    "midi",
-    "FL",
-    "Studio"
-  ],
   "author": "Konstantin Barkalov",
   "license": "ISC",
+  "keywords": [
+    "midi",
+    "payload",
+    "mapping",
+    "controller",
+    "customization",
+    "experimental"
+  ], 
   "dependencies": {
     "commander": "^12.1.0",
     "easymidi": "^3.1.0"
