@@ -1,0 +1,25 @@
+{
+  "name": "mimi",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "tool to map midi to act like a more powerful launchpad for FL Studio's \"performace mode\"",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node src/cli.js",
+    "start": "npm run cli --"
+  },
+  "keywords": [
+    "m-vave",
+    "smk25",
+    "midi",
+    "FL",
+    "Studio"
+  ],
+  "author": "Konstantin Barkalov",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "easymidi": "^3.1.0"
+  }
+}
