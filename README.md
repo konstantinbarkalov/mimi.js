@@ -1,33 +1,31 @@
-## mimi.js - NODE.JS MIDI Payload Framework (Experimental)
+## mimi.js - A Node.js MIDI Payload Tool (Experimental)
 
-mimi.js is an experimental command-line tool for creating and managing custom MIDI payloads written in Javasctipt. It provides a basic framework for mapping MIDI messages to specific actions within various applications or devices. Designed to be used in conjunction with some MIDI virtual loopback cables to interconnect between DAW, devices and mimi.js.
+mimi.js is a work-in-progress command-line tool written in JavaScript for creating custom MIDI payloads. It's designed to work with virtual MIDI loopback cables, allowing you to map MIDI messages to actions within your music applications and devices.
 
-### Current State
+### Current Status
 
-This project is in its early stages and is still under active development. The features and functionality may change significantly as the project evolves.
+This is an experimental project in its early stages.  
 
-### Features (Planned)
+### Goals
 
-- **Customizable Payloads:** Define unique MIDI mappings to trigger actions in different applications.
-- **Extensible Framework:** Build upon the core functionality to create your own specialized payloads.
-- **Application Agnostic:** Support a wide range of applications and devices.
+- Map MIDI messages to custom actions.
+- Create reusable payload configurations.
+- DAW agnostic.
 
 ### Installation
 
-1. **Clone the repository:** `git clone https://github.com/konstantinbarkalov/mimi.js.git`
-2. **Install dependencies:** `npm install`
+1. Clone: `git clone https://github.com/konstantinbarkalov/mimi.js.git`
+2. Install: `npm install`
 
-### Basic Usage
+### Usage
 
-- **List Available Payloads:** `npm start list`
-- **Start a Payload:** `npm start start --payload-name <name>`
-
-**Note:** The included payloads are currently very limited and may not be fully functional.
+- List payloads: `npm start list`
+- Start a payload: `npm start start --payload-name <name>`
 
 ### Contributing
 
-Contributions and feedback are welcome! Feel free to open issues or submit pull requests.
+Contributions are welcome! Feel free to open issues or pull requests.
 
 ### License
 
-This project is licensed under the ISC License.
+ISC License
