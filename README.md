@@ -1,6 +1,6 @@
-## mimi.js - A MIDI Payload Framework (Experimental)
+## mimi.js - NODE.JS MIDI Payload Framework (Experimental)
 
-mimi.js is an experimental command-line tool for creating and managing custom MIDI payloads. It provides a basic framework for mapping MIDI messages to specific actions within various applications or devices.
+mimi.js is an experimental command-line tool for creating and managing custom MIDI payloads written in Javasctipt. It provides a basic framework for mapping MIDI messages to specific actions within various applications or devices. Designed to be used in conjunction with some MIDI virtual loopback cables to interconnect between DAW, devices and mimi.js.
 
 ### Current State
 
